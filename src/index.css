@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    /* --color-primary: #0562af; */
+    --color-primary: #2563eb;
+    --color-secondary: #dd3333;
+}
+
+
+
+.active {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #dd3333;
+    font-weight: 700;
+}
+
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+}
