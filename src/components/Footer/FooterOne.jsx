@@ -97,12 +97,6 @@ const FooterOne = () => {
                             <li>
                                 <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to='/public-api'>Public API</Link>
                             </li>
-                            <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Documentation</a>
-                            </li>
-                            <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Guides</a>
-                            </li>
                         </ul>
                     </div>
                     <div className="space-y-3">

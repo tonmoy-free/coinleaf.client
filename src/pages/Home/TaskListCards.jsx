@@ -41,8 +41,11 @@ const TaskListCards = () => {
                             />
                             <h2 className="text-lg font-bold">
                                 {/* {task.task_title} */}
-                                {task.task_title.length > 50 ? task.task_title.slice(0, 35) + "..." : task.task_title}
+                                {task.task_title.length > 25 ? task.task_title.slice(0, 35) + "..." : task.task_title}
                             </h2>
+                            <p>
+                                {task.task_detail.length > 30 ? task.task_detail.slice(0, 35) + "...." : task.task_detail}
+                            </p>
                             <p><strong>Buyer :</strong> {task.buyer_name}</p>
                             <p><strong>Deadline :</strong> {task.completion_date}</p>
                             <p className="flex gap-1 items-center">

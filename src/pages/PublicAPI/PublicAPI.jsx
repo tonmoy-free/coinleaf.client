@@ -128,10 +128,7 @@ Response:
                     <p>Pro Tier: <strong>500 requests/minute</strong></p>
                 </section>
 
-                {/* Footer */}
-                <footer className="mt-10 text-center text-sm text-gray-500 dark:text-gray-400">
-                    © {new Date().getFullYear()} CoinLeaf Public API. All rights reserved.
-                </footer>
+                
             </div>
         </div>
     );

@@ -105,10 +105,7 @@ const PrivacyPolicy = () => {
                     </p>
                 </section>
 
-                {/* Footer */}
-                <footer className="mt-10 text-center text-sm text-gray-500 dark:text-gray-400">
-                    © {new Date().getFullYear()} CoinLeaf. All rights reserved.
-                </footer>
+                
             </div>
         </div>
     );
