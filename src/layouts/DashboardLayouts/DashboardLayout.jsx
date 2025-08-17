@@ -35,7 +35,6 @@ const allNavItems = {
     { name: "My Tasks", icon: <FaListAlt />, path: "/dashboard/my-tasks" },
     { name: "Purchase Coin", icon: <FaCoins />, path: "/dashboard/purchase-coin" },
     { name: "Payment History", icon: <FaHistory />, path: "/dashboard/payment-history" },
-    { name: "Approve Submissions", icon: <FaHistory />, path: "/dashboard/approve-submission" },
 
   ],
   admin: [

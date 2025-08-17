@@ -6,6 +6,7 @@ import useAxios from '../../../hooks/useAxios';
 import { AuthContext } from '../../../provider/AuthProvider';
 import useAxiosSecure from '../../../hooks/UseAxiosSecure';
 import Loading from '../../../components/Loading/Loading';
+import BuyerChart from '../../../components/Dashboard/BuyerChart';
 
 const BuyerHome = () => {
     const { user, loading } = useContext(AuthContext);
@@ -88,6 +89,14 @@ const BuyerHome = () => {
                         <h4 className="text-lg">Total Payment</h4>
                         <p className="text-2xl font-bold">${totalPayments}</p>
                     </div>
+                </div>
+
+                <div>
+                    <BuyerChart
+                        totalTasks={totalTasks}
+                        pendingWorkers={pendingWorkers}
+                        totalPayments={totalPayments}
+                    ></BuyerChart>
                 </div>
 
                 <div className="overflow-x-auto">

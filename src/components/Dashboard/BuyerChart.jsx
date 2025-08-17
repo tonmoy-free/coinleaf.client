@@ -1,27 +1,18 @@
 import React from 'react';
-import useAxios from '../../../../hooks/useAxios';
-import { useQuery, useQueryClient } from '@tanstack/react-query';
-import useAxiosSecure from '../../../../hooks/UseAxiosSecure';
-import Loading from '../../../Loading/Loading';
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
 
 
-const WorkerChart = ({ stats }) => {
-    const axiosInstance = useAxios();
-    const queryClient = useQueryClient();
-    const axiosSecure = useAxiosSecure();
-    console.log(stats.totalWorkers)
+const BuyerChart = ({ totalTasks, pendingWorkers, totalPayments }) => {
 
     // const data = [
     //     { name: stats.totalWorkers, totalBuyers: stats.totalBuyers, totalCoins: stats.totalCoins, totalPayments: stats.totalPayments }
     // ];
 
     const data01 = [
-        { name: 'Buyers', value: stats.totalBuyers },
-        { name: 'Total Coin', value: stats.totalCoins },
-        { name: 'Workers', value: stats.totalWorkers },
-        { name: 'Total Payments', value: stats.totalPayments },
+        { name: 'Total Tasks', value: totalTasks },
+        { name: 'Pending Workers', value: pendingWorkers },
+        { name: 'Total Payments', value: totalPayments },
     ];
 
     const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"]; // customize colors
@@ -51,4 +42,4 @@ const WorkerChart = ({ stats }) => {
     );
 };
 
-export default WorkerChart;
+export default BuyerChart;
