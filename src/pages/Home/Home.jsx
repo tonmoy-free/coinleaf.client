@@ -8,6 +8,7 @@ import HeroVideo from '../../components/Home/HeroVideo';
 import BestWorkers from '../../components/Home/BestWorkers/BestWorkers';
 import TestimonialSection from '../../components/Home/TestimonialSection';
 import StepsToStart from '../../components/Home/StepsToStart';
+import FeaturedTasks from '../../components/Home/FeaturedTasks/FeaturedTasks';
 
 
 const Home = ({ pageTitle }) => {
@@ -24,6 +25,8 @@ const Home = ({ pageTitle }) => {
             <div>
                 <BannerTwo></BannerTwo>
             </div>
+
+            <FeaturedTasks></FeaturedTasks>
 
             <StepsToStart></StepsToStart>
             <Faq></Faq>
