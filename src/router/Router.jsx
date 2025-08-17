@@ -41,6 +41,9 @@ import TaskListCards from "../pages/Home/TaskListCards";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import TermsOfService from "../pages/TermsOfService/TermsOfService";
+import FaqPage from "../pages/FaqPage/FaqPage";
+import PublicAPI from "../pages/PublicAPI/PublicAPI";
 
 
 export const router = createBrowserRouter([
@@ -78,6 +81,18 @@ export const router = createBrowserRouter([
             {
                 path: '/privacy-policy',
                 element: <PrivacyPolicy></PrivacyPolicy>
+            },
+            {
+                path: '/terms-Of-service',
+                element: <TermsOfService></TermsOfService>
+            },
+            {
+                path: '/faq',
+                element: <FaqPage></FaqPage>
+            },
+            {
+                path: '/public-api',
+                element: <PublicAPI></PublicAPI>
             },
             {
                 path: '/forbidden',

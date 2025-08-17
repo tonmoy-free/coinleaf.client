@@ -10,13 +10,7 @@ const PrivacyPolicy = () => {
                 </p>
             </div>
             <div className="max-w-4xl mx-auto">
-                {/* Page Header */}
-                {/* <h1 className="text-3xl font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-green-500">
-                    Privacy Policy
-                </h1>
-                <p className="text-center text-gray-600 dark:text-gray-400 mb-10">
-                    Last updated: {new Date().toLocaleDateString()}
-                </p> */}
+
 
                 {/* Section 1 */}
                 <section className="mb-8">
@@ -104,7 +98,7 @@ const PrivacyPolicy = () => {
                         us at:{" "}
                         <a
                             href="mailto:support@coinleaf.com"
-                            className="text-blue-500 underline"
+                            className="text-primary dark:text-secondary underline"
                         >
                             support@coinleaf.com
                         </a>

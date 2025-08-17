@@ -74,17 +74,9 @@ const FooterOne = () => {
                     <div className="space-y-3">
                         <h3 className="tracking-wide font-medium uppercase dark:hover:text-secondary  hover:text-primary  cursor-pointer ">Product</h3>
                         <ul className="space-y-1">
+
                             <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Features</a>
-                            </li>
-                            <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Integrations</a>
-                            </li>
-                            <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Pricing</a>
-                            </li>
-                            <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">FAQ</a>
+                                <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to='/faq'>FAQ</Link>
                             </li>
                         </ul>
                     </div>
@@ -95,7 +87,7 @@ const FooterOne = () => {
                                 <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to="/privacy-policy">Privacy</Link>
                             </li>
                             <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Terms of Service</a>
+                                <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to='/terms-Of-service'>Terms of Service</Link>
                             </li>
                         </ul>
                     </div>
@@ -103,7 +95,7 @@ const FooterOne = () => {
                         <h3 className=" font-medium uppercase dark:hover:text-secondary  hover:text-primary  cursor-pointer">Developers</h3>
                         <ul className="space-y-1">
                             <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Public API</a>
+                                <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to='/public-api'>Public API</Link>
                             </li>
                             <li>
                                 <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Documentation</a>
