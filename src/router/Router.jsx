@@ -39,6 +39,7 @@ import BuyerRoute from "../provider/BuyerRoute";
 import WorkerRoute from "../provider/WorkerRoute";
 import TaskListCards from "../pages/Home/TaskListCards";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 
 export const router = createBrowserRouter([
@@ -67,7 +68,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/about-us',
-                element: <ContactUs></ContactUs>
+                element: <AboutUs></AboutUs>
             },
             {
                 path: '/contact-us',
