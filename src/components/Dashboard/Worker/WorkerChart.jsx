@@ -3,16 +3,16 @@ import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
 
 
-const BuyerChart = ({ totalTasks, pendingWorkers, totalPayments }) => {
+const WorkerChart = ({ totalSubmissions, totalPending, totalEarnings }) => {
 
     // const data = [
     //     { name: stats.totalWorkers, totalBuyers: stats.totalBuyers, totalCoins: stats.totalCoins, totalPayments: stats.totalPayments }
     // ];
 
     const data01 = [
-        { name: 'Total Tasks', value: totalTasks },
-        { name: 'Pending Workers', value: pendingWorkers },
-        { name: 'Total Payments', value: totalPayments },
+        { name: 'Total Submissions', value: totalSubmissions },
+        { name: 'Total Pending', value: totalPending },
+        { name: 'Total Earnings', value: totalEarnings },
     ];
 
     const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"]; // customize colors
@@ -55,4 +55,4 @@ const BuyerChart = ({ totalTasks, pendingWorkers, totalPayments }) => {
     );
 };
 
-export default BuyerChart;
+export default WorkerChart;

@@ -5,11 +5,12 @@ import useAxios from '../../../hooks/useAxios';
 import { FaCoins } from 'react-icons/fa';
 import useAxiosSecure from '../../../hooks/UseAxiosSecure';
 import Loading from '../../../components/Loading/Loading';
+import WorkerChart from '../../../components/Dashboard/Worker/WorkerChart';
 
 const WorkerHome = () => {
     const { user } = useContext(AuthContext);
     const axiosInstance = useAxios();
-    const axiosSecure =useAxiosSecure();
+    const axiosSecure = useAxiosSecure();
 
     const { data: submissions = [], isLoading } = useQuery({
         queryKey: ['worker-home', user?.email],
@@ -51,6 +52,14 @@ const WorkerHome = () => {
                         <h3 className="text-xl font-semibold">{totalEarnings}</h3>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <WorkerChart
+                    totalSubmissions={totalSubmissions}
+                    totalPending={totalPending}
+                    totalEarnings={totalEarnings}
+                ></WorkerChart>
             </div>
 
             {/* Approved Submissions Table */}
