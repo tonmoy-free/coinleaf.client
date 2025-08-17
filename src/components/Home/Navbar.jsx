@@ -65,7 +65,9 @@ const Navbar = () => {
         <>
             <li className='text-primary dark:text-white'><NavLink to="/">Home</NavLink></li>
             <li className='text-primary dark:text-white'><NavLink to="/allTasks">Tasks</NavLink></li>
-            {!user?.email && (
+            <li className='text-primary dark:text-white'><NavLink to="/about-us">About Us</NavLink></li>
+            <li className='text-primary dark:text-white'><NavLink to="/contact-us">Contact Us</NavLink></li>
+            {/* {!user?.email && (
                 <>
                     <li className="text-primary md:hidden dark:text-white">
                         <NavLink to="/login" end>Login</NavLink>
@@ -77,7 +79,7 @@ const Navbar = () => {
                         <NavLink to="https://github.com/Programming-Hero-Web-Course4/b11a12-client-side-tonmoy-free/commits/main/" target="_blank">Join As Developer</NavLink>
                     </li>
                 </>
-            )}
+            )} */}
         </>
     )
     return (

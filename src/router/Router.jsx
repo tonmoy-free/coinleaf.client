@@ -38,6 +38,7 @@ import AdminRoute from "../provider/AdminRoute";
 import BuyerRoute from "../provider/BuyerRoute";
 import WorkerRoute from "../provider/WorkerRoute";
 import TaskListCards from "../pages/Home/TaskListCards";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 
 export const router = createBrowserRouter([
@@ -63,6 +64,14 @@ export const router = createBrowserRouter([
             {
                 path: '/profile',
                 element: <PrivateRoute><Profile></Profile></PrivateRoute>
+            },
+            {
+                path: '/about-us',
+                element: <ContactUs></ContactUs>
+            },
+            {
+                path: '/contact-us',
+                element: <ContactUs></ContactUs>
             },
             {
                 path: '/forbidden',
