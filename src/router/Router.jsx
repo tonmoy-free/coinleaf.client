@@ -40,6 +40,7 @@ import WorkerRoute from "../provider/WorkerRoute";
 import TaskListCards from "../pages/Home/TaskListCards";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import AboutUs from "../pages/AboutUs/AboutUs";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 
 
 export const router = createBrowserRouter([
@@ -73,6 +74,10 @@ export const router = createBrowserRouter([
             {
                 path: '/contact-us',
                 element: <ContactUs></ContactUs>
+            },
+            {
+                path: '/privacy-policy',
+                element: <PrivacyPolicy></PrivacyPolicy>
             },
             {
                 path: '/forbidden',

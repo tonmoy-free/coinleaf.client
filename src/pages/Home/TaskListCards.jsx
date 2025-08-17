@@ -37,9 +37,12 @@ const TaskListCards = () => {
                             <img
                                 src={task.task_image_url}
                                 alt="Task"
-                                className="w-25 h-25 object-cover rounded mb-2"
+                                className="w-full h-full object-cover rounded mb-2"
                             />
-                            <h2 className="text-lg font-bold">{task.task_title}</h2>
+                            <h2 className="text-lg font-bold">
+                                {/* {task.task_title} */}
+                                {task.task_title.length > 50 ? task.task_title.slice(0, 35) + "..." : task.task_title}
+                            </h2>
                             <p><strong>Buyer :</strong> {task.buyer_name}</p>
                             <p><strong>Deadline :</strong> {task.completion_date}</p>
                             <p className="flex gap-1 items-center">

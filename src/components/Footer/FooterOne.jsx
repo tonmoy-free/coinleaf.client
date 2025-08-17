@@ -92,7 +92,7 @@ const FooterOne = () => {
                         <h3 className="tracking-wide uppercase font-medium  dark:hover:text-secondary  hover:text-primary  cursor-pointer">Company</h3>
                         <ul className="space-y-1">
                             <li>
-                                <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Privacy</a>
+                                <Link className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" to="/privacy-policy">Privacy</Link>
                             </li>
                             <li>
                                 <a className='dark:hover:text-secondary  hover:text-primary  cursor-pointer' rel="noopener noreferrer" href="#">Terms of Service</a>
