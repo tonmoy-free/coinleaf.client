@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const LetsGetStarted = () => {
     return (
-            <div className='h-auto py-16 md:h-[400px] bg-gradient-to-r from-blue-500 to-red-400 flex flex-col justify-center items-center space-y-6   mb-16 md:mb-24 lg:mb-32 px-4 text-center'>
+            <div className='h-auto py-16 md:h-[400px] bg-gradient-to-r from-blue-500 to-red-400 flex flex-col justify-center items-center space-y-6    px-4 text-center'>
                 <h1 className='text-2xl md:text-4xl lg:text-5xl font-semibold text-white dark:text-white'>
                     Let's Get Started!
                 </h1>
