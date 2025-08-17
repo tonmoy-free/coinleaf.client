@@ -16,10 +16,7 @@ const AboutUs = () => {
 
                 {/* Description */}
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-                    <span className="font-semibold text-primary dark:text-secondary">ArtiLeaf</span> is a platform
-                    for exploring and preserving the world’s most fascinating historical artifacts. Browse, share, and
-                    celebrate history together. Discover and contribute to history with ArtiLeaf — your digital archive
-                    for treasures like the Rosetta Stone, the Antikythera Mechanism, and many more.
+                    <span className="font-semibold text-primary dark:text-secondary">CoinLeaf </span> is a secure, responsive micro-task and earning platform where users can complete small jobs — like submissions, verifications, or content-based tasks — and earn digital coins. Whether you're a task buyer or a worker, CoinLeaf offers a smooth and user-friendly experience with personalized dashboards, real-time earnings tracking, and built-in notification and approval systems. Perfect for students, freelancers, or anyone looking to monetize their spare time.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4 max-w-3xl mx-auto">
                     We aim to connect people through the power of history. Track legendary artifacts, add your
@@ -31,32 +28,29 @@ const AboutUs = () => {
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg cursor-pointer hover:border hover:border-primary transition-all duration-300 ease-in-out dark:border-secondary">
                         <h3 className="text-xl font-bold text-primary dark:text-secondary mb-2">Our Vision</h3>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
-                            To become the leading global platform for preserving and sharing historical artifacts,
-                            making history accessible to everyone.
+                            To become the most trusted and accessible global micro-task platform that empowers individuals to earn, grow, and connect — anytime, anywhere.
                         </p>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg cursor-pointer hover:border hover:border-primary transition-all duration-300 ease-in-out dark:border-secondary">
                         <h3 className="text-xl font-bold text-primary dark:text-secondary mb-2">Our Mission</h3>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
-                            To connect people through interactive storytelling, accurate preservation, and open access
-                            to cultural treasures.
+                            To provide a secure and user-friendly platform where buyers and workers can collaborate seamlessly.To enable students, freelancers, and everyday users to monetize their skills and time effectively.To build a community-driven ecosystem with transparency, fairness, and innovation at its core.
                         </p>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg cursor-pointer hover:border hover:border-primary transition-all duration-300 ease-in-out dark:border-secondary">
                         <h3 className="text-xl font-bold text-primary dark:text-secondary mb-2">Our Goal</h3>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
-                            To build a collaborative digital archive where individuals can discover, contribute, and
-                            learn about humanity’s shared heritage.
+                            Help millions of people gain financial independence through micro-tasks.Ensure safe transactions, verified tasks, and reliable payment systems.Connect buyers and workers across borders, making opportunities available worldwide.
                         </p>
                     </div>
                 </div>
 
                 {/* Call to Action */}
                 <div className="mt-10">
-                    <Link to={`/allArtifacts`}>
-                        <button className="px-6 py-5 btn btn-outline btn-primary hover:bg-secondary hover:border-secondary dark:text-white  rounded-lg dark:border-secondary">Explore Artifacts</button>
+                    <Link to={`/allTasks`}>
+                        <button className="px-6 py-5 btn btn-outline btn-primary hover:bg-secondary hover:border-secondary dark:text-white  rounded-lg dark:border-secondary">Explore Tasks</button>
                     </Link>
                 </div>
             </div>
