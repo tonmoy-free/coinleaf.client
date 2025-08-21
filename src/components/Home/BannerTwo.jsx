@@ -8,7 +8,7 @@ import coin from '../../assets/lottie/coin.json';
 const BannerTwo = () => {
     return (
         <div className='w-11/12 mx-auto'>
-            <div className="hero bg-base-200 min-h-96 dark:bg-black">
+            <div className="hero  min-h-96 dark:bg-black">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className='flex-1 '>
                         <Lottie className='ml-55 hidden lg:block' style={{ width: '350px' }} animationData={coin}  loop={true}></Lottie>
